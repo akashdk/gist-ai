@@ -14,5 +14,8 @@ export default defineConfig({
       'sidePanel',
       'activeTab'
     ],
+    host_permissions: [
+      '<all_urls>'
+    ],
   },
 });
