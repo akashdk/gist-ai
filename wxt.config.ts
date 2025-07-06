@@ -12,10 +12,15 @@ export default defineConfig({
       'storage',
       'tabs',
       'sidePanel',
-      'activeTab'
+      'activeTab',
+      'scripting',
+      'contextMenus',
     ],
     host_permissions: [
       '<all_urls>'
     ],
+    side_panel: {
+      default_path: 'sidepanel.html'
+    }
   },
 });
